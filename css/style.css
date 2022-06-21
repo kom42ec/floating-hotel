@@ -36,6 +36,29 @@ p {
   padding: 0 20px;
 }
 
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f7c08a;
+  color: #333;
+}
+
 /* Navbar */
 #navbar {
   background-color: #333;
@@ -81,4 +104,17 @@ p {
   background-position: center center;
   background-size: cover;
   height: 600px;
+}
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2;
+}
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7;
 }
