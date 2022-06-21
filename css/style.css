@@ -168,4 +168,13 @@ p {
 .feature-icon {
   height: 50px;
   width: 50px;
+  fill: #333;
+  margin-bottom: 10px;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
 }
