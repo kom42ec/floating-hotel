@@ -271,6 +271,13 @@ p {
 #contact-form textarea {
   height: 200px;
 }
+
+/* CONTACT INFO SECTION */
+
+.contact-icon {
+  height: 50px;
+  width: 50px;
+}
 /* FOOTER */
 
 #main-footer {
