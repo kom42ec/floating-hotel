@@ -162,3 +162,10 @@ p {
 #home-info .info-content p {
   padding-bottom: 30px;
 }
+
+/* FEATURE SECTION */
+
+.feature-icon {
+  height: 50px;
+  width: 50px;
+}
