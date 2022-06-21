@@ -81,6 +81,21 @@ p {
   clear: both;
 }
 
+.l-heading {
+  font-size: 40px;
+}
+/* Padding */
+
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
 /* Navbar */
 #navbar {
   background-color: #333;
@@ -181,6 +196,27 @@ p {
   width: 33.3%;
   padding: 50px;
   text-align: center;
+}
+
+/* About Info */
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto; /* Centering the image inside the parent element */
+  width: 70%;
+  border-radius: 50%;
 }
 
 /* FOOTER */
